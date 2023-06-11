@@ -1,0 +1,2 @@
+<div class="circle d-lg-flex position-fixed d-none hidden" style="pointer-events:all;z-index:99;"><a href="https://shop.reuss-gelenkwellen.de/" target="_blank" class="circe-link">Artikel <br>in unserem Onlineshop<br></a></div>
+            

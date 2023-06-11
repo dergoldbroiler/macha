@@ -1,0 +1,86 @@
+/*
+.red a{
+  color: #e50913 !important
+}
+
+.orange a {
+  color:#f38a15 !important
+}
+
+.green a {
+  color:#0a823a !important
+}
+
+.blue a {
+  color:#2d57a3 !important
+}
+
+.violet a {
+  color:#712180 !important
+}*/
+
+
+.red a{
+  color: #000 !important
+}
+
+.orange a {
+  color:#000 !important
+}
+
+.green a {
+  color:#000 !important
+}
+
+.blue a {
+  color:#000 !important
+}
+
+.violet a {
+  color:#000 !important
+}
+
+
+li.red a:hover, li.red.hovered a,li.red.hovered .sub-menu li a:hover,li.red.current-menu-item a, li.red.current-menu-ancestor a{
+   color: #e50913 !important
+}
+li.orange a:hover, li.orange.current-menu-ancestor a, li.orange.hovered a,li.orange.current-menu-item a,li.orange.hovered .sub-menu li a:hover{
+   color: #f38a15 !important
+}
+
+li.green a:hover,li.green.current-menu-ancestor a, li.green.hovered a,li.green.current-menu-item a,li.green.hovered .sub-menu li a:hover
+{
+  color: #0a823a !important
+}
+li.blue a:hover, li.blue.current-menu-ancestor a,li.blue.hovered a,li.blue.current-menu-item a,li.blue.hovered .sub-menu li a:hover
+{
+  color: #2d57a3 !important
+}
+li.violet a:hover, li.violet.current-menu-ancestor a,li.violet.hovered a,li.violet.current-menu-item a,li.violet.hovered .sub-menu li a:hover
+{
+  color: #712180 !important
+}
+
+
+
+li.red.hovered .sub-menu li a,li.orange.hovered .sub-menu li a,li.violet.hovered .sub-menu li a,li.green.hovered .sub-menu li a,li.blue.hovered .sub-menu li a
+{
+  color: #fff !important
+}
+
+
+li.orange a:hover {
+  color:#f38a15 !important
+}
+
+li.green a:hover {
+  color:#0a823a !important
+}
+
+li.blue a:hover {
+  color:#2d57a3 !important
+}
+
+li.violet a:hover {
+  color:#712180 !important
+}

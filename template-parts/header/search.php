@@ -1,0 +1,1 @@
+<div id="resultcontainer" class="w-100"></div>
