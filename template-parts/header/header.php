@@ -23,33 +23,20 @@
 
             
 
-            
+           
         </div>
 
         <div class="row" id="on-demand-container">
-            <div class="col bg-white p-0" id="on-demand"> 
+            <div class="col p-0" id="on-demand"> 
                 <?php get_template_part('template-parts/header/share'); ?> 
                 <?php get_template_part('template-parts/header/menu'); ?> 
                 <?php get_template_part('template-parts/header/search'); ?> 
+                
+                  
             </div>
            
         </div>
+        <?php get_template_part('template-parts/header/content-wave'); ?>  
     </div>
-        
-        <?php if( is_front_page() ): ?>
 
-            <div class="container-fluid p-0" id="image-header">
-                <div class="row">
-                    <div class="col d-none d-lg-flex">
-                        <?php // get_template_part('template-parts/header/imageslider'); ?>        
-                    </div>
-                    <div class="col d-block d-lg-none">
-                        <?php get_template_part('template-parts/header/frontpage-mobile'); ?>    
-                        
-                    </div>
-                </div>
-            </div>
-
-        <?php endif; ?> 
-    
 </header>

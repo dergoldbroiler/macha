@@ -281,19 +281,8 @@ export const toggle = {
                         toggle.handleContent(config);
                     });
                 });
-                break;
-            case 'keyup':
-                config.element.addEventListener('keyup', e => {
-                    if (e.key !== "Escape") {
-                        toggle.toggle(config).then(data => {
-                            toggle.handleContent(config);
-                        });
-                    }
-                });
-                break;
-            default:
-                config.element.addEventListener('click', toggle.toggle);
-                break;
+                break; 
+      
         }
     },
 

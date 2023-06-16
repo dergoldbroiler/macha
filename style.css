@@ -71,7 +71,7 @@ body, html {
  font-family: 'New Order Regular';
  font-weight: light;
  letter-spacing: 1px;
- background-color: #fff
+ background-color: rgba(67,169,41,1)
 }
 .search-active{ overflow: hidden;}
 h1,h2,h3 {
@@ -162,7 +162,7 @@ h3.frm_form_title {
 }
 #image-header {
   padding-top: 160px !important;
-  margin-bottom: 10px; background-color: rgba(67,169,41,1);
+  margin-bottom: 10px; 
 }
 article {
   width: 80% !important;
@@ -195,7 +195,7 @@ article {
 #top-header {
   border-top:15px solid rgba(77,143,171,1);
   max-width: 1890px;
-  background-color: rgba(67,169,41,1);
+  background-color: #FFD500;
   z-index: 9;
 }
 #top-logo {
@@ -214,9 +214,17 @@ article {
   overflow-y:scroll;
   height: 100%;
 }
-#on-demand {
-  max-height: 500%;
-  overflow-y: scroll;
+
+
+.waves {
+  position: relative;
+  width: 117%;
+  height: 15vh;
+  margin-bottom: -64px;
+  min-height: 100px;
+  max-height: 150px;
+  top: -64px;
+  left: -20px;
 }
 #share{
   padding-right: 40px !important;
@@ -255,10 +263,7 @@ article {
     padding: 5px 0;
     padding-top: 8px;
   }
-  #on-demand {
-    max-height: 350%;
-    overflow-y: scroll;
-  }
+ 
 }
 
 
@@ -407,7 +412,7 @@ transform: scale(1);
 #on-demand {
   position: absolute;
   height: 0;
-  background-color: #fff;
+  background-color: #FFD500;
   transition: all .3s ease-in-out;
   z-index: 2;
   
@@ -416,7 +421,7 @@ transform: scale(1);
   height: 0 !important;
 }
 #on-demand.on-demand--open{
-  background-color: #fff;
+  background-color: #FFD500;
   height: 300px;
  transition: all .3s ease-in-out;
 padding-top: 40px !important;
