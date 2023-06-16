@@ -162,9 +162,5 @@ document.addEventListener('DOMContentLoaded', function(e) {
  // document.querySelector('.circle').setAttribute('style','height:'+document.querySelector('#circlecontainer').clientWidth*.85+'px;width:'+document.querySelector('#circlecontainer').clientWidth*.85+'px;margin-left:'+document.querySelector('#circlecontainer').clientWidth*.6+'px');
 });
 
-window.addEventListener('resize', function(e) {
-  // toggle.closeSearch();//toggle.closeAll()
-   services.handleCirclePosition();
-});
 
 

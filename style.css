@@ -410,9 +410,8 @@ transform: scale(1);
 }
 
 #on-demand {
-  position: absolute;
+
   height: 0;
-  background-color: #FFD500;
   transition: all .3s ease-in-out;
   z-index: 2;
   
@@ -421,7 +420,7 @@ transform: scale(1);
   height: 0 !important;
 }
 #on-demand.on-demand--open{
-  background-color: #FFD500;
+  
   height: 300px;
  transition: all .3s ease-in-out;
 padding-top: 40px !important;
