@@ -38,7 +38,7 @@
   
 
 <!-- Pagewrap -->
-<div id="page-wrap" class="shadow-lg w-100"> 
+<div id="page-wrap" class="w-100"> 
 
   <?php get_template_part('template-parts/header/header'); ?>
 

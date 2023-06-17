@@ -1,14 +1,22 @@
 <?php get_header(); ?>
+<?php
+  $categories = get_the_terms( $post->ID, 'category' )
+?>
+<div class="container-fluid p-0 sub-bg" id="main">
 
-<div class="container-fluid p-0" id="main" style="min-height:100vh">
-<div class="row">
-        <div class="col-12">
+  <article class="container-fluid">
+
    
+
+    <div class="row">
+        <div class="col my-4">
+         <?php the_content(); ?>
         </div>
-    </div>   
+    </div>  
 
+    
+</article>
 
-</div>
 
   
 

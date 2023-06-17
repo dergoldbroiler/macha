@@ -11,64 +11,56 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'New Order Bold';
+  font-family: 'AmaticBold';
   font-style: normal;
-  src: url('./fonts/NewOrderBold.otf') format('opentype'); /* IE9 Compat Modes */
+  src: url('./fonts/AmaticSC-Bold.ttf') format('opentype'); /* IE9 Compat Modes */
 }
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'New Order Semibold';
+  font-family: 'AmaticRegular';
   font-style: normal;
-  src: url('./fonts/New\ Order\ SemiBold.otf') format('opentype'); /* IE9 Compat Modes */
+  src: url('./fonts/AmaticSC-Regular.ttf') format('opentype'); /* IE9 Compat Modes */
 }
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'New Order Medium';
+  font-family: 'NiraBold';
   font-style: bold;
-  src: url('./fonts/New\ Order\ Medium.otf') format('opentype'); /* IE9 Compat Modes */
+  src: url('./fonts/Niramit-Bold.ttf') format('opentype'); /* IE9 Compat Modes */
 }
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'New Order Regular';
+  font-family: 'NiraLight';
   font-style: normal;
-  src: url('./fonts/New\ Order\ Regular.otf') format('opentype'); /* IE9 Compat Modes */
+  src: url('./fonts/Niramit-Light.ttf') format('opentype'); /* IE9 Compat Modes */
 }
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'New Order Light';
+  font-family: 'NiraMedium';
   font-style: normal;
-  src: url('./fonts/New\ Order\ Light.otf') format('opentype'); /* IE9 Compat Modes */
+  src: url('./fonts/Niramit-Medium.ttf') format('opentype'); /* IE9 Compat Modes */
 }
 
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'ProximaRegular';
+  font-family: 'NiraSemibold';
   font-style: normal;
-  src: url('./fonts/ProximaNova-Reg.otf') format('opentype'); /* IE9 Compat Modes */
+  src: url('./fonts/Niramit-SemiBold.ttf') format('opentype'); /* IE9 Compat Modes */
 }
 
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'ProximaBold';
-  font-style: normal;
-  src: url('./fonts/ProximaNova-Sbold.otf') format('opentype'); /* IE9 Compat Modes */
-  src: url(./fonts/ProximaNova-Sbold.eot?#iefix) format('embedded-opentype'),
-  url(./fonts//ProximaNova-Sbold.ttf) format('truetype'),
-  url(./fonts/ProximaNova-Sbold.woff2) format('woff2');
-}
+
 
 
 
 
 body, html {
  font-size:18px;
- height:100%;
+ height:100% !important;
  height: auto;
  overflow-x:hidden;
  width:100%; 
  margin: 0;
  padding: 0;
- font-family: 'New Order Regular';
+ font-family: 'NiraLight';
  font-weight: light;
  letter-spacing: 1px;
  background-color: rgba(67,169,41,1)
@@ -98,15 +90,25 @@ h2 {
   margin-top: 1rem;
 }
 
+h2.logo-h2 {
+  font-family: 'NiraBold';
+  font-size: 34px;
+}
+
+.sub-bg h1 {
+  font-family: 'AmaticBold';
+  font-size:55px
+}
+
 .sub-bg h2 {
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 40px;
+  font-family: 'AmaticRegular' !important;
 }
 h2.category-headline{
  
   padding:10px 0;
   
-  display: inline-block; font-family: 'New Order Medium';
+  display: inline-block; font-family:'NiraMedium';
   padding-bottom:0;
   margin-bottom: 5px;
 }
@@ -120,12 +122,7 @@ hr.yellow-line {
   opacity: 1;
   
 }
-h1.wp-block-heading {
-  font-size: 60px;font-family: 'New Order Semibold';
-}
-h3.frm_form_title {
-  margin-bottom: 20px !important;
-}
+
 #page-wrap {
   width: 100%;
   max-width: 1920px;
@@ -153,7 +150,7 @@ h3.frm_form_title {
 }
 #top-content-container h2,#top-content-container h2 a {
   font-size: 24px;
-  font-family: 'New Order Regular';
+  font-family:'NiraMedium';
   color:#000;
   text-decoration: none;
 }
@@ -192,9 +189,7 @@ article {
 }
 
 
-#top-header {
-  border-top:15px solid rgba(77,143,171,1);
-  max-width: 1890px;
+#top-header {max-width: 1890px;
   background-color: #FFD500;
   z-index: 9;
 }
@@ -268,83 +263,6 @@ article {
 
 
 
-/* circle */
-.circle {
-  width: 300px;
-  height: 300px;
-  border-radius:50%;
-  background-color:rgba(77,143,171,1);
-  border:10px solid rgba(251,188,20,1);
-transform: scale(1);
-  font-family: 'New Order Bold';
-  z-index: 10;
-  text-align: center;
-    vertical-align: middle;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 44px;
-   
-   margin-top: 25px;
-}
-.circe-link {
-  color: white;
-  font-size: 34px;
-  text-align: center;
-  text-decoration: none;
-  width: 70%;
-  transition: all .2s;
-}
-.hidden {
-  display:none !important;
-}
-.circe-link:hover {
-  color: rgba(251,188,20,1);
-  text-decoration: none;
-}
-.circe-link::after{
-  content: " ";
-  background-image: url(images/weisserPfeil.svg);
-  background-size: 60px;
-  background-repeat: no-repeat;
-  background-position-y: 50%;
-  width: 70px;
-  height: 30px;
-  height: 30px;
-  display: block;
-  transition: all .2s;
-   margin: auto;
-   margin-top: 15px;
-  
-}
-@media(max-width:1600px){
-  .circle {
-  transform: scale(.9);
-
-  }
-}
-@media(max-width:1480px){
-  .circle {
-  transform: scale(.8);
-  margin-top: 10px;
-  }
-}
-@media(max-width:1200px){
-  .circle {
-  margin-top: 10px
-  }
-}
-@media(max-width:1100px){
-  .circle {
-    transform: scale(.7);
-    margin-top: 0px
-  }
-}
-.circe-link:hover::after{
-  content: " ";
-  background-image: url(images/arrow-active.svg);
-}
-
 
 /** nav **/
 .menuopener{
@@ -357,7 +275,7 @@ transform: scale(1);
 
 }
 .menuopener__bar{
-  background-color: rgba(116,125,117,1);
+  background-color: #000;
   height: 3px;
   width: 100%;
   display: block;
@@ -370,17 +288,17 @@ transform: scale(1);
 
 
 .menuopener__title{
-  color: rgba(116,125,117,1);
+  color: #000;
   letter-spacing: 0px;
   font-size: 15px;
 }
 
 .menuopener.active .menuopener__bar:first-child{
-  background-color: rgba(77,143,171,1);
+
   transform: rotate(45deg) translateY(7.5px) translateX(5px);
 }
 .menuopener.active .menuopener__bar:nth-child(2){
-  background-color: rgba(77,143,171,1);
+
   transform: rotate(-45deg) translateY(-7.5px) translateX(5px);
 }
 @media(max-width:580px) {
@@ -400,11 +318,11 @@ transform: scale(1);
     margin-bottom: 5px;
   }
   .menuopener.active .menuopener__bar:first-child{
-    background-color: rgba(77,143,171,1);
+
     transform: rotate(45deg) translateY(5.5px) translateX(5px);
   }
   .menuopener.active .menuopener__bar:nth-child(2){
-    background-color: rgba(77,143,171,1);
+  
     transform: rotate(-45deg) translateY(-5.5px) translateX(5px);
   }
 }
@@ -434,7 +352,7 @@ padding-top: 40px !important;
 #sharelist{
   display: none;
   padding-left: 0;
-  font-family: 'New Order Medium';
+  font-family:'NiraMedium';
 }
 
 #sharelist.active{
@@ -450,7 +368,7 @@ padding-top: 40px !important;
 #mainmenu {
   display: none;
   padding-left: 0;
-  font-family: 'New Order Medium';
+  font-family: 'NiraMedium';
 }
 #mainmenu.active {
  display: flex;
@@ -459,19 +377,22 @@ padding-top: 40px !important;
 
   
 }
-#mainmenu.active li a, #sharelist.active li a {
-  font-size: 34px;
-  color: rgba(86,94,90,1);
+#mainmenu li a, #sharelist li a {
+  font-size: 35px;
+  color: #707070;
   text-decoration: none;
   display: block; transition: all .2s;
+}
+#mainmenu li a:hover, #sharelist li a:hover {
+  color:#000
+}
+li.current-menu-item a{
+  color:#000
 }
 #mainmenu.active li,#sharelist.active li a {
   padding: 5px;
 }
 
-#mainmenu.active li a:hover, #mainmenu.active li.current-menu-item > a, #mainmenu.active li.current-page-anchestor > a ,#sharelist.active li a:hover {
-  color: rgba(251,188,20,1);
-}
 
 .mleft {
   
@@ -857,7 +778,7 @@ li.right::after{
 a.readmore{
   text-decoration: none;
   color: rgba(53,60,54,1);
-  font-family: 'New Order Medium';
+  font-family:'NiraMedium';
   transition: all .2s;
 }
 a.readmore:hover{
@@ -946,7 +867,7 @@ footer {
   color:rgba(53,60,54,1);
   text-decoration: none;
   font-size: 20px;
-  font-family: 'New Order Regular';
+  font-family:'NiraMedium';;
   transition: all .2s;
 }
 #footermenu li a:hover{
@@ -994,13 +915,14 @@ color: rgba(251,188,20,1);
 
 }
 .sub-bg{
-  background-image:url(images/Hintergrund-Ornament-Unterseite-3.webp);
-  background-color: rgba(216,223,236,1);
-  min-height: 500px;
-  padding-top: 160px !important;
+  background-image:url(images/Ornament-im-Hintergrund.png);
+
+  min-height: 90%;
+  height: auto;
+  padding-top: 300px !important;
   padding-left: 10% !important;
   padding-right: 10% !important;
-  background-position: top right;
+  background-position: bottom center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
@@ -1034,16 +956,10 @@ color: rgba(251,188,20,1);
   display: none !important;
 }
 .bg-1{
-  background-color: rgba(77,143,171,1) !important;
+  background-color: rgba(251,188,20,1)
 }
 
-.bg-2 {
-  background-color: rgba(137,149,138,1) !important;
-}
 
-.bg-3 {
-  background-color: rgba(232,226,202,1) !important;
-}
 
 .copied{
   font-size: 14px;

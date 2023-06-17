@@ -8,7 +8,7 @@
             </div>
 
             <div class="col-8 text-center ">
-          <h2><a href="<?php echo get_home_url(); ?>" class="text-decoration-none text-dark">Ergotherapie Glück im Grünen</a></h2>
+                <h2 class="logo-h2"><a href="<?php echo get_home_url(); ?>" class="text-decoration-none text-dark">Ergotherapie Glück im Grünen</a></h2>
             </div>
             <?php $bg = "bg-blue-mobile"; 
             if(!is_front_page( )){
