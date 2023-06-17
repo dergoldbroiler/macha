@@ -93,7 +93,7 @@ export const toggle = {
 
         if (action === 'open') {
             onDemandContainer.classList.add('on-demand--open');
-            onDemandContainer.setAttribute('style', 'height: ' + height + 'px;overflow-y: scroll;');
+            onDemandContainer.setAttribute('style', 'height: ' + height + 'px;overflow-y: hidden;');
             onDemandContainer.classList.remove('on-demand--closed');
         } else {
             onDemandContainer.classList.remove('on-demand--open');
