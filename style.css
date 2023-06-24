@@ -190,13 +190,17 @@ article {
 .wavecontainer {
 
   max-width: 1920px;
-  padding: 0 !important
+  padding: 0 !important;
+  position: relative;
+  top: -80px;
+  z-index: 0;
 }
 
 #top-header {max-width: 1920px;
   
   z-index: 9;
   padding:0
+
 }
 #top-logo {
   max-width: 100% !important;
@@ -936,8 +940,10 @@ color: rgba(251,188,20,1);
 .bg-helper {
   max-width: 1920px;
   width: 100%;
-  margin: auto;
+  margin: auto;    position: relative;
+  z-index: 1;
 }
+
 .sub-bg{
   background-image:url(images/Ornament-im-Hintergrund.png);
 
