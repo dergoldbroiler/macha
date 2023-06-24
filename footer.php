@@ -10,7 +10,9 @@
 
 </div>
 <!-- / Pagewrap --> 
-<footer class="container-fluid w-100 bg-1">
+<img src="<?php bloginfo('stylesheet_directory'); ?>/images/bottom-wave-desktop.svg" alt="Welle" class="img-fluid-macha" id="footer-wave"/>
+<footer class="container-fluid w-100 bg-yellow">
+
 <?php
     wp_nav_menu(array('menu' => 'footer', 'menu_id'=>'footermenu', 'menu_container' => false));
 ?>

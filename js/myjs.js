@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
   services.setLocalStorageTimeStamps();
   services.listenForKeydown();
   services.handleCloseBtnClick();
-  toggle.handleEscapeKey();
+  //toggle.handleEscapeKey();
   services.handleSlickSliderArrows();
   
  // document.querySelector('.circle').setAttribute('style','height:'+document.querySelector('#circlecontainer').clientWidth*.85+'px;width:'+document.querySelector('#circlecontainer').clientWidth*.85+'px;margin-left:'+document.querySelector('#circlecontainer').clientWidth*.6+'px');

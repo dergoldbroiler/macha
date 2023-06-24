@@ -46,7 +46,7 @@ export const toggle = {
     },
 
     closeAll: function () {
-        toggle.toggleBodyScroll('enable');
+       // toggle.toggleBodyScroll('enable');
 
         document.querySelector('#mainmenu').classList.remove('active');
         document.querySelector('#sharelist').classList.remove('active');
@@ -70,6 +70,7 @@ export const toggle = {
     },
 
     toggleBodyScroll: function (action = "disable") {
+        return
         if (action === 'disable') {
             document.body.classList.add('search-active');
             document.getElementsByTagName('html')[0].classList.add('search-active');

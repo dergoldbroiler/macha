@@ -130,7 +130,6 @@ hr.yellow-line {
   background-color: rgba(67,169,41,1);
   min-height: 100%;
   height: auto;
-  overflow-x: hidden;
   padding-top: 0;
 }
 
@@ -189,12 +188,13 @@ article {
 }
 
 .wavecontainer {
-  background-color: rgba(67,169,41,1);
+
   max-width: 1920px;
   padding: 0 !important
 }
+
 #top-header {max-width: 1920px;
-  background-color: #FFD500;
+  
   z-index: 9;
   padding:0
 }
@@ -214,6 +214,9 @@ article {
 
   height: 100%;
   overflow: hidden;
+  max-width: 1920px;
+  margin: auto;
+
 }
 
 
@@ -854,6 +857,15 @@ footer {
   padding: 20px;
   color: #fff;
   text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+#footer-wave {
+  position: relative;
+  top: 70px;
+  z-index: 0;
+
 }
 
 #footermenu {
@@ -916,9 +928,15 @@ color: rgba(251,188,20,1);
     padding: 5px 30px;
   }
 }
-.bg-light-blue {
-  background-color: rgba(216,223,236,1);
+.bg-yellow {
+  background-color: #FFD500;
 
+}
+
+.bg-helper {
+  max-width: 1920px;
+  width: 100%;
+  margin: auto;
 }
 .sub-bg{
   background-image:url(images/Ornament-im-Hintergrund.png);
@@ -1171,9 +1189,9 @@ h3.frm_form_title {
 }
 
 .img-fluid-macha{
-  max-width: 1921px;
+  max-width: 1920px;
     height: auto;
-    margin-left: -1px;
-    width: 100.5%;
+
+    width: 100%;
 }
 

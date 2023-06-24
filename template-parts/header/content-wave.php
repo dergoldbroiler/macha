@@ -1,5 +1,5 @@
-<div class="wavecontainer container-fluid">
+<div class="wavecontainer container-fluid" style="">
     
-<img src="<?php bloginfo('stylesheet_directory'); ?>/images/topwave.png" alt="Welle" class="img-fluid-macha" id="wave"/>
+<img src="<?php bloginfo('stylesheet_directory'); ?>/images/top-wave-desktop.svg" alt="Welle" class="img-fluid-macha" id="wave"/>
 
 </div>
