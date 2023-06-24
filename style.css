@@ -163,6 +163,7 @@ hr.yellow-line {
 article {
   width: 80% !important;
   margin: auto;
+  min-height: 500px;
 }
 
 @media(max-width:1920px){
@@ -960,6 +961,7 @@ color: rgba(251,188,20,1);
 @media(max-width:1200px){
   article{
     width: 98% !important;
+  
   }
 .sub-bg{
 
