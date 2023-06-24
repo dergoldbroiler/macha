@@ -1,7 +1,7 @@
 <header class="container-fluid p-0 " id="header">
 
     <div class="container-fluid position-fixed" id="top-header">
-        <div class="row pt-md-3 py-lg-4 bg-yellow bg-helper">
+        <div class="row pt-md-1 pt-lg-1 bg-yellow bg-helper">
 
             <div class="col-2">
                <?php get_template_part('template-parts/header/menuopener'); ?>
