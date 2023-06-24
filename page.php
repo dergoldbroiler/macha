@@ -2,7 +2,7 @@
 <?php
   $categories = get_the_terms( $post->ID, 'category' )
 ?>
-<div class="container-fluid p-0 bg-light-blue sub-bg" id="main">
+<div class="container-fluid p-0 sub-bg" id="main">
 
   <article class="container-fluid">
 
@@ -16,12 +16,7 @@
 
     
 </article>
-<div class="row">
-        <div class="col-12">
-          <?php get_template_part('template-parts/posts/postgrid','',array('category' => 'aktuelles', 'title' => 'Aktuelles', 'bg' => '')) ?>
-        </div>
-    </div>    
-</div>
+
 
   
 
