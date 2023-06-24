@@ -952,10 +952,10 @@ color: rgba(251,188,20,1);
   padding-top: 300px !important;
   padding-left: 10% !important;
   padding-right: 10% !important;
-  background-position: bottom center;
+  background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
+  
+    background-size: 102%;
 }
 @media(max-width:1200px){
   article{
