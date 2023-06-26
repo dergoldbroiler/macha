@@ -96,7 +96,16 @@ h2.logo-h2 {
   margin-top: 5px !important;
   margin-bottom: 0 !important;
 }
-
+@media(max-width:992px) {
+  h2.logo-h2 {
+    font-size: 28px;
+  }
+}
+@media(max-width:768px) {
+  h2.logo-h2 {
+    font-size: 26px;
+  }
+}
 .sub-bg h1 {
   font-family: 'AmaticBold';
   font-size:55px
@@ -201,6 +210,53 @@ article {
   z-index: 0;
 }
 
+@media(max-width:1800px){
+  .wavecontainer {
+
+    position: relative;
+    top: -65px;
+    z-index: 0;
+    width: 110%;
+  }
+
+}
+@media(max-width:1480px){
+  .wavecontainer {
+
+    position: relative;
+    top: -50px;
+    z-index: 0;
+    width: 110%;
+  }
+
+}
+
+@media(max-width:1024px){
+  .wavecontainer {
+
+    position: relative;
+    top: -40px;
+    z-index: 0;
+    width: 110%;
+  }
+
+}
+
+@media(max-width:768px){
+  .wavecontainer {
+    top: -20px;
+    width: 110%;
+  }
+
+}
+
+@media(max-width:580px){
+  .wavecontainer {
+    top: -10px;
+    width: 110%;
+  }
+
+}
 #top-header {max-width: 1920px;
   
   z-index: 9;
