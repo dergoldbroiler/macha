@@ -134,7 +134,9 @@ hr.yellow-line {
   height: auto;
   padding-top: 0;
 }
-
+.page-template-default:not(.home) #page-wrap{
+  background-color: rgba(225, 57, 76, .5);
+}
 #top-content-container{
   min-height: 100px;
   background-color: rgba(67,169,41,1);
@@ -959,6 +961,9 @@ color: rgba(251,188,20,1);
     background-repeat: no-repeat;
   
     background-size: 102%;
+}
+.single-page{
+
 }
 @media(max-width:1200px){
   article{

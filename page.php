@@ -2,7 +2,7 @@
 <?php
   $categories = get_the_terms( $post->ID, 'category' )
 ?>
-<div class="container-fluid p-0 sub-bg" id="main">
+<div class="container-fluid p-0 sub-bg single-page" id="main">
 
   <article class="container-fluid">
 
