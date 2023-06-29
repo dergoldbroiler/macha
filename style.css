@@ -901,7 +901,7 @@ a.readmore:hover::after{
 /** form **/
 #form_kontakt{
   background-color: #fff;
-  border:3px solid rgba(151,164,152,1);
+ 
   padding: 30px;
 }
 
@@ -1168,11 +1168,11 @@ font-size: 24px !important;
 
 
 .frm_forms, .frm_forms * {
-  font-family: 'ProximaRegular';
+ 
   font-size:20px !important
 }
 .frm_forms h3 {  
-  font-family: 'ProximaBold'; 
+ 
   margin-bottom: 0 !important;
   margin-top: 0 !important;
   padding-left: 10px;
@@ -1196,7 +1196,7 @@ font-size: 24px !important;
       border-width: 0;
       border-color: #579AF6;
       border-style: solid;
-      color: #ffffff !important;
+      color: #000 !important;
       cursor: pointer;
       font-weight: normal;
       -moz-border-radius: 0;
@@ -1213,7 +1213,8 @@ font-size: 24px !important;
       margin: 10px;
       margin-left: 0;
       margin-right: 0;
-      vertical-align: middle;
+      vertical-align: middle;border-radius: 0 !important;
+      border:0 !important;
   }
 
   .frm_submit button::after{
@@ -1231,6 +1232,8 @@ font-size: 24px !important;
     margin-top: 0;
     margin-left: 10px;
     vertical-align: middle;
+    border-radius: 0 !important;
+    border:0 !important;
   }
   .frm_submit button:hover{
     width: auto;
@@ -1242,7 +1245,7 @@ font-size: 24px !important;
     border-width: 0;
     border-color: #579AF6;
     border-style: solid;
-    color: #fff !important;
+    color: #000 !important;
 
 }
 
