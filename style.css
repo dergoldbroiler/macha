@@ -992,8 +992,9 @@ left:0;
   color:#000;
   text-decoration: none;
   font-size: 20px;
-  font-family:'NiraMedium';;
+  font-family:'NiraLight';
   transition: all .2s;
+  letter-spacing: 0px;
 }
 #footermenu li a:hover{
 color: rgba(251,188,20,1);
@@ -1079,6 +1080,9 @@ padding-bottom: 50px;
 }
 }
 @media(max-width:992px){
+  .sub-bg{
+    background-image:none
+  }
   article{
     width: 98% !important;
   }
@@ -1264,7 +1268,7 @@ font-size: 24px !important;
 
   .frm_submit button::after{
     content: " ";
-    background-image: url(images/weisserPfeil.svg);
+    background-image: url(images/Pfeil-schwarz.webp);
     background-size: 50px;
     background-repeat: no-repeat;
     background-position-y: 62%;
