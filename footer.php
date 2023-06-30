@@ -12,6 +12,8 @@
 <!-- / Pagewrap --> 
 
 <footer class="container-fluid w-100 p-0 bg-yellow">
+
+<img src="<?php bloginfo('stylesheet_directory'); ?>/images/Logo-DVE.png" alt="DVE" class="dve-logo"/>
 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/bottom-wave-desktop.svg" alt="Welle" class="img-fluid-macha" id="footer-wave"/>
 <?php
     wp_nav_menu(array('menu' => 'footer', 'menu_id'=>'footermenu', 'menu_container' => false));

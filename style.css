@@ -18,7 +18,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'AmaticRegular';
-  font-style: normal;
+  font-style: light;
   src: url('./fonts/AmaticSC-Regular.ttf') format('opentype'); /* IE9 Compat Modes */
 }
 @font-face {
@@ -106,12 +106,13 @@ h2.logo-h2 {
   }
 }
 .sub-bg h1 {
-  font-family: 'AmaticBold';
-  font-size:55px
+  font-family: 'AmaticBold' !important;
+  font-size:100px
 }
 
 .sub-bg h2 {
-  font-size: 40px;
+  margin-top: 50px;
+  font-size: 80px;
   font-family: 'AmaticRegular' !important;
 }
 h2.category-headline{
@@ -300,6 +301,9 @@ article {
 }
 @media(max-width:992px){
   h1.wp-block-heading {
+    font-size: 60px;
+  }
+  h2.wp-block-heading {
     font-size: 40px;
   }
   #top-header {
@@ -1055,9 +1059,13 @@ color: rgba(251,188,20,1);
   padding-top: 130px !important;
   padding-left: 10% !important;
   padding-right: 10% !important;
-  background-position: center 100px;
+  background-position: center 130px;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.home .sub-bg{
+  padding-top: 180px !important;
 }
 article{
 height: 100%;
@@ -1318,3 +1326,27 @@ h3.frm_form_title {
     width: 100%;
 }
 
+
+.dve-logo{
+  position: absolute;
+width: 110px;
+margin-top: -160px;
+margin-left: 7.5%;
+}
+
+@media(max-width:768px){
+  .dve-logo{
+ 
+  margin-top: -130px;
+  margin-left: 7.5%;
+  }
+}
+
+
+@media(max-width:580px){
+  .dve-logo{
+ 
+  margin-top: -130px;
+  margin-left: 7.5%;
+  }
+}
