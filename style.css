@@ -115,6 +115,19 @@ h2.logo-h2 {
   font-size: 80px;
   font-family: 'AmaticRegular' !important;
 }
+.sub-bg h3 {
+
+  font-size: 40px;
+  font-family: 'AmaticRegular' !important;
+}
+
+@media(max-width:768px) {
+  .sub-bg h3 {
+    padding-top: 15px;
+    font-size: 30px;
+    font-family: 'AmaticRegular' !important;
+  }
+}
 h2.category-headline{
  
   padding:10px 0;
@@ -177,6 +190,7 @@ article {
   width: 80% !important;
   margin: auto;
   min-height: 730px;
+  padding-bottom: 100px !important;
 }
 
 @media(max-width:1920px){
@@ -321,6 +335,14 @@ article {
   #share{
     padding-right: 20px !important;
     margin-top: 5px !important;
+  }
+}
+@media(max-width:580px){
+  h1.wp-block-heading {
+    font-size: 46px;
+  }
+  h2.wp-block-heading {
+    font-size: 30px;
   }
 }
 @media(min-width:1600px){
@@ -1330,7 +1352,7 @@ h3.frm_form_title {
 .dve-logo{
   position: absolute;
 width: 110px;
-margin-top: -160px;
+margin-top: -140px;
 margin-left: 7.5%;
 }
 
