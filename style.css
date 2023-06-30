@@ -955,6 +955,7 @@ footer {
   text-align: center;
   position: relative;
   z-index: 1;
+ 
 
 }
 .menu-footermenu-container{
@@ -975,8 +976,8 @@ footer {
   position: relative;
   z-index: 2;
   top: -89px;
-    width: 100%;
-left:0;
+    width: 104%;
+    left:0;
     margin-bottom: -117px;
 }
 @media(max-width:1680px) {
