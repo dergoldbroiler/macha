@@ -54,8 +54,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 body, html {
  font-size:18px;
- height:100% !important;
- height: auto;
+ height:100%;
  overflow-x:hidden;
  width:100%; 
  margin: 0;
@@ -930,20 +929,40 @@ footer {
   text-align: center;
   position: relative;
   z-index: 1;
+
 }
+.menu-footermenu-container{
+  margin-top: -40px;
+  position: relative;
+  z-index: 3;
+  padding-bottom: 20px;
+}
+  /*
 
 #footer-wave {
   position: relative;
   top: 70px;
   z-index: 0;
 
+} */
+#footer-wave {
+  position: relative;
+  z-index: 2;
+  top: -89px;
+    width: 100%;
+left:0;
+    margin-bottom: -117px;
 }
-@media(max-width:992px) {
-  #footer-wave {
-   top:10px
-  
+@media(max-width:1680px) {
+  #page-wrap{
+    height: auto;
   }
+
+  
 }
+
+
+
 #footermenu {
   width: auto;
   list-style: none;
@@ -1029,15 +1048,20 @@ color: rgba(251,188,20,1);
 }
 
 .sub-bg{
-  background-image:url(images/Ornament-im-Hintergrund.png);
-  min-height: 100%;
-  height: 100%;
-  padding-top: 180px !important;
+  background-image:url(images/Ornament-im-Hintergrund.svg);
+  min-height: 100vh;
+  height: auto;
+  padding-top: 130px !important;
   padding-left: 10% !important;
   padding-right: 10% !important;
   background-position: center 100px;
   background-repeat: no-repeat;
   background-size: contain;
+}
+article{
+height: 100%;
+padding-bottom: 50px;
+
 }
 .single-page{
 
