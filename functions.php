@@ -2,6 +2,9 @@
 
 require_once('inc/func_rest_api.php');
 
+
+
+
 if ( ! function_exists( 'theme_slug_setup' ) ) :
     /**
      * Sets up theme and registers support for various WordPress features.

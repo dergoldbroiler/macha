@@ -27,7 +27,7 @@
 	
 	
  
-	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/style.css">
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/style.css?v=<?php echo filemtime(get_stylesheet_directory().'/style.css'); ?>">
 
 	<script>
 		var searchable_content = [];
