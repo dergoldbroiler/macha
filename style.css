@@ -484,15 +484,15 @@ padding-top: 40px !important; overflow: hidden;
 }
 #mainmenu li a, #sharelist li a {
   font-size: 35px;
-  color: #707070;
+  color: #fff;
   text-decoration: none;
   display: block; transition: all .2s;
 }
 #mainmenu li a:hover, #sharelist li a:hover {
-  color:#fff
+  color:#000
 }
 li.current-menu-item a{
-  color:#fff
+  color:#000
 }
 #mainmenu.active li,#sharelist.active li a {
   padding: 5px;
