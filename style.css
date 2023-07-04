@@ -1380,6 +1380,9 @@ margin-left: 7.1%;
   }
 }
 
-a:link{
+a:link, a:visited, a:hover, a:active {
   color:#000;
+}
+a:hover{
+  text-decoration: none;
 }
