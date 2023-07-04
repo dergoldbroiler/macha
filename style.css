@@ -102,7 +102,7 @@ h2.logo-h2 {
 }
 @media(max-width:768px) {
   h2.logo-h2 {
-    font-size: 26px;
+    font-size: 24px;
   }
 }
 .sub-bg h1 {
@@ -220,7 +220,7 @@ article {
   max-width: 1920px;
   padding: 0 !important;
   position: relative;
-  top: -75px;
+  top: -66px;
   z-index: 0;
 }
 
@@ -489,10 +489,10 @@ padding-top: 40px !important; overflow: hidden;
   display: block; transition: all .2s;
 }
 #mainmenu li a:hover, #sharelist li a:hover {
-  color:#000
+  color:#fff
 }
 li.current-menu-item a{
-  color:#000
+  color:#fff
 }
 #mainmenu.active li,#sharelist.active li a {
   padding: 5px;
@@ -1354,14 +1354,20 @@ h3.frm_form_title {
   position: absolute;
 width: 110px;
 margin-top: -140px;
-margin-left: 7.5%;
+margin-left: 7.1%;
+}
+@media(max-width:1024px){
+  .dve-logo{
+ 
+  margin-left: 6%;
+  }
 }
 
 @media(max-width:768px){
   .dve-logo{
  
   margin-top: -130px;
-  margin-left: 7.5%;
+  margin-left: 7%;
   }
 }
 
@@ -1370,6 +1376,10 @@ margin-left: 7.5%;
   .dve-logo{
  
   margin-top: -130px;
-  margin-left: 7.5%;
+  margin-left: 5%;
   }
+}
+
+a:link{
+  color:#000;
 }

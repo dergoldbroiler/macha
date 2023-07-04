@@ -38,38 +38,7 @@ const services =  {
     return localStorage.getItem(storageKey) ? true : false;
   },
 
-  /* fetch products as fas as they are not stored in localstorage */
-  fetchProducts: function() {
-
-    if(services.hasLocalStorage('wc-products')) {
-      return;
-    }
-      const shop_url = 'https://shop.reuss-gelenkwellen.de/wp-json/wc/v2/products/?per_page=100';
-
-      fetch(shop_url, {headers: {'Authorization': 'Basic ' + btoa('ck_b5ed3fcc3b91aef1762867b2b24a5806afea703b' + ":" + 'cs_b6e5569d016a07c18bf503eeceb4522b43a89ed4')}}).
-      then(response => response.json()).
-      then(data => { 
-        //store data globally on pageload
-        searchable_content['products'] = data;
-        localStorage.setItem('wc-products', JSON.stringify(data));
-      });
-    
-  },
-
-  fetchCustomAPI: function() {
-    if(services.hasLocalStorage('custom-content')) {
-      return;
-    }
-    const shop_url = '/wp-json/wp/v2/custom';
-
-    fetch(shop_url).
-    then(response => response.json()).
-    then(data => { 
-      //store data globally on pageload
-      searchable_content['custom'] = data;
-      localStorage.setItem('custom-content', JSON.stringify(data));
-    });
-  },
+  
 
   setLocalStorageTimeStamps: function() {
     if(!services.hasLocalStorage('custom-content-timestamp')){
@@ -151,8 +120,6 @@ document.addEventListener('DOMContentLoaded', function(e) {
 
  
   services.initializeSlickSlider();
-  services.fetchProducts();
-  services.fetchCustomAPI();
   services.setLocalStorageTimeStamps();
   services.listenForKeydown();
   services.handleCloseBtnClick();

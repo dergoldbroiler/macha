@@ -3,7 +3,7 @@
 <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1499.7 669.4" style="enable-background:new 0 0 1499.7 669.4;" xml:space="preserve">
 <style type="text/css">
-	.st0{clip-path:url(#SVGID_00000160884368105356829040000005475010241724536219_);}
+	.st0{clip-path:url(#SVGID_00000029737010940456607090000003607390400844610970_);}
 	.st1{fill:none;stroke:#FFFFFF;stroke-width:8;}
 	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#00417C;}
 	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
@@ -14,14 +14,14 @@
 	<defs>
 		<rect id="SVGID_1_" width="1499.7" height="669.4"/>
 	</defs>
-	<clipPath id="SVGID_00000026161600148366822760000016340039465478151861_">
+	<clipPath id="SVGID_00000011010360139902881610000005440083220292461982_">
 		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
 	</clipPath>
-	<g id="Gruppe_85" style="clip-path:url(#SVGID_00000026161600148366822760000016340039465478151861_);">
+	<g id="Gruppe_85" style="clip-path:url(#SVGID_00000011010360139902881610000005440083220292461982_);">
 		<g id="Gruppe_80">
-			<path id="Pfad_88" class="st1" d="M0.8,373.7c0,0,330.6-66.4,333.7,174s-466.2,61-202.2-207.9c264-269,651.2-320,651.2-320
+			<path id="Pfad_88" class="st1" d="M-8.4,375.3c0,0,339.8-68.1,342.9,172.4s-466.2,61-202.2-207.9c264-269,651.2-320,651.2-320
 				S1453-97.1,1506,381.3"/>
-			<path id="Pfad_89" class="st1" d="M0.8,378.6c0,0,330.6-66.4,333.7,174s-466.2,61-202.2-207.9c264-269,651.2-320,651.2-320
+			<path id="Pfad_89" class="st1" d="M-7.7,378.7c0,0,339.1-66.4,342.2,174s-466.2,61-202.2-207.9c264-269,651.2-320,651.2-320
 				S1453-99.1,1506,379.3"/>
 			<path id="Pfad_83" class="st2" d="M1323.7,72.9c8.3,6.1,18,10.2,28.1,12.1c16.8,3.1,38.9,0.2,60.6-23.6
 				C1412.4,61.4,1379.5,41.7,1323.7,72.9"/>
